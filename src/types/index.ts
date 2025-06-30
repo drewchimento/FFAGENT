@@ -23,6 +23,7 @@ export interface PlayerStats {
   targets?: number;
   touchdowns?: number;
   fantasyPoints?: number;
+  [key: string]: number | undefined;
 }
 
 export interface DraftPick {
